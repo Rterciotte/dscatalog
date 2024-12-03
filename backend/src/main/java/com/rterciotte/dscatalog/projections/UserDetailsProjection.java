@@ -1,9 +1,9 @@
 package main.java.com.rterciotte.dscatalog.projections;
 
-public class UserDetailsProjection {
+public interface UserDetailsProjection {
 
-	public String getUsername();
-	public String getPassword();
-	public Long getRoleId();
-	public String getAuthority();
+	String getUsername();
+	String getPassword();
+	Long getRoleId();
+	String getAuthority();
 }
